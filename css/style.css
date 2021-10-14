@@ -88,17 +88,26 @@ GLOBAL
   max-width: 960px;
   width: 90%;
   margin: 0 auto;
+  padding-top: 200px;
+  height: 100%;
 }
 html, body {
   height: 100%;
 }
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 16px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+h1 {
+  font-size: 25px;
+  font-weight: 900;
+}
+a {
+  text-decoration: none;
 }
 /***************
 MODULAR STYLES
@@ -190,9 +199,7 @@ CONTENT
 body {
   background: #fff url('../images/wallpaper.png') repeat-x 0 0;
 }
-.content {
-  flex: 1 0 auto;
-}
+
 /*********************
 FOOTER
 *********************/
