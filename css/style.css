@@ -199,7 +199,14 @@ CONTENT
 body {
   background: #fff url('../images/wallpaper.png') repeat-x 0 0;
 }
-
+.twitter-feed {
+  position: absolute;
+  float: right;
+  top: 200px;
+  right: 100px;
+  max-width: 400px;
+  max-height: 600px;
+}
 /*********************
 FOOTER
 *********************/
